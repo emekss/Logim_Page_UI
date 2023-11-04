@@ -4,15 +4,16 @@ import 'package:google_fonts/google_fonts.dart';
 
 import 'package:login_page_ui/util/circle_wallpaper.dart';
 import 'package:login_page_ui/util/signIn_button.dart';
+import 'package:login_page_ui/util/signUp_button.dart';
 
-class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+class RegisterPage extends StatefulWidget {
+  const RegisterPage({super.key});
 
   @override
-  State<LoginPage> createState() => _LoginPageState();
+  State<RegisterPage> createState() => _RegisterPageState();
 }
 
-class _LoginPageState extends State<LoginPage> {
+class _RegisterPageState extends State<RegisterPage> {
   //text controllers
   final _emailcontroller = TextEditingController();
   final _passwordcontroller = TextEditingController();
@@ -120,9 +121,12 @@ class _LoginPageState extends State<LoginPage> {
             child: Center(
               child: GestureDetector(
                 onTap: signIn,
-                child: const SignInButton(),
+                child: const SignUpButton(),
               ),
             ),
+          ),
+          const Row(
+            children: [Text('Already a Member')],
           ),
           const Positioned(
             top: 780,

@@ -1,15 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class SignInButton extends StatelessWidget {
-  const SignInButton({super.key});
+class SignUpButton extends StatelessWidget {
+  const SignUpButton({super.key});
 
   @override
   Widget build(BuildContext context) {
     return GestureDetector(
-      onTap: () {
-        Navigator.pushNamed(context, '/homePage');
-      },
+      onTap: () {},
       child: Container(
         height: 43,
         width: 157,
@@ -19,7 +17,7 @@ class SignInButton extends StatelessWidget {
         ),
         child: Center(
           child: Text(
-            'Sign in',
+            'Sign up',
             style: GoogleFonts.poppins(
               fontSize: 25,
               color: Colors.white,
