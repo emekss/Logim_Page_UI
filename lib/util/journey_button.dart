@@ -6,22 +6,27 @@ class JourneyButton extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
-      height: 70,
-      width: 261,
-      decoration: BoxDecoration(
-        color: Colors.black,
-        borderRadius: BorderRadius.circular(30),
-      ),
-      child: Center(
-          child: Text(
-        'JOURNEY',
-        style: GoogleFonts.poppins(
-          fontSize: 30,
-          fontWeight: FontWeight.bold,
-          color: Colors.white,
+    return GestureDetector(
+      onTap: () {
+        Navigator.pushNamed(context, '/loginPage');
+      },
+      child: Container(
+        height: 70,
+        width: 261,
+        decoration: BoxDecoration(
+          color: Colors.black,
+          borderRadius: BorderRadius.circular(30),
         ),
-      )),
+        child: Center(
+            child: Text(
+          'JOURNEY',
+          style: GoogleFonts.poppins(
+            fontSize: 30,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        )),
+      ),
     );
   }
 }
