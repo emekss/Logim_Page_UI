@@ -46,7 +46,7 @@
 		</data>
 		<key>Frameworks/App.framework/App</key>
 		<data>
-		C8XsrjmsOP/DM8lHGqlwojMcfUs=
+		Ldj/PPZzoX6FuXMR5j2gHODz794=
 		</data>
 		<key>Frameworks/App.framework/Info.plist</key>
 		<data>
@@ -54,15 +54,15 @@
 		</data>
 		<key>Frameworks/App.framework/_CodeSignature/CodeResources</key>
 		<data>
-		StLnnz0mx6vKl8bVJQsj6NhFSmA=
+		Eh96N7VKGMyAWxGSXW21UUMXeos=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<data>
-		ME0cAg6cl/bTZmwXEVgMugDccUI=
+		oMP+Vk8sIBwWfar4OWuzBFrwYm8=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<data>
-		oG5/OGn+vw7vp/nu5DUDoZJ4nFc=
+		Uydwt9jefxcPJLP1DNie+fTXWpk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
 		<data>
@@ -70,7 +70,11 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/NOTICES.Z</key>
 		<data>
-		9C+ROMa02G6dWuwnDaKRmAyCD0M=
+		4qH0LJOXX3UQtIB6OZ91D81KVrE=
+		</data>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/book.png</key>
+		<data>
+		bS2VAzfXV9V6b+MrQ7yiXI3I8kk=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
 		<data>
@@ -82,7 +86,7 @@
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/kernel_blob.bin</key>
 		<data>
-		cOrsSjWVRmI2Vkp+uxaj2yFjHkA=
+		Dv2nq2e3O0RDMaY0KWbzKDjT8AU=
 		</data>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
 		<data>
@@ -180,6 +184,18 @@
 		<data>
 		nMTZkkm9uooDDa8A2YJSyK73oP8=
 		</data>
+		<key>Frameworks/path_provider_foundation.framework/Info.plist</key>
+		<data>
+		a/V/lA2OTQSB9YIgDoK3FGrH5k8=
+		</data>
+		<key>Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources</key>
+		<data>
+		ObtXAgcrasXs0XVTFpyQXusz0/w=
+		</data>
+		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation</key>
+		<data>
+		wBk6Ef1LB1eporBTaE2MWipUKBI=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		J+4JEBIyHD4UnDujKLJoPAdEpyM=
@@ -265,7 +281,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			3PDJCot88rhJ7jD/a1HMJDgxqA0QNvWYl40EjBKqU7c=
+			+RHzU7BYe1CX+P05RHQGNUktMr8hFJlh7dbv9p2dR04=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/Info.plist</key>
@@ -279,21 +295,21 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			MDmqvjS0aQFQ3swwB4GVFs/4Np4PCDCs7GH2gU6rcnc=
+			jGo0kcObG2lx2Gd2UBpvUwDw3/tdzkeD3miaF3YltVI=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.bin</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AK9VrT1vIYmP534P8JLRoc2lLJQbaGDpko1FyK+MCV0=
+			Oe3SYPqLU31K8LQVLGQfYzK1nhJ4bbYkyvMPlSWWjjM=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/AssetManifest.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Sps95+7JukayebvM0TLjL1LW1VXXndpKp/O8tOm9ZR8=
+			iB0Ir41zM98C+n38W9Z7ePLAQ7wczyy3wi/4JEgkAaA=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/FontManifest.json</key>
@@ -307,7 +323,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			jtVkKhJg08eYhayxl/glY+58/Mgk4T78EzdlFvzKLkw=
+			8yK9c7ZVfvgLCiLKFAU50Ivbf2zgIg4NHEEKm0WYfNw=
+			</data>
+		</dict>
+		<key>Frameworks/App.framework/flutter_assets/assets/images/book.png</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			doSN8XQ7lW7IxeZsedpzlVQH3WK5b/l56WbW0JWM1X8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/fonts/MaterialIcons-Regular.otf</key>
@@ -328,7 +351,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			e6lIP/JxyXsyjG60N1hT1pe7VYt9T+4WE9Ue2YASweE=
+			QfUo6euIHQsSfYL3PTp7D7DxgFQ9UqVkur9xZU4W4A8=
 			</data>
 		</dict>
 		<key>Frameworks/App.framework/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf</key>
@@ -497,6 +520,27 @@
 			<key>hash2</key>
 			<data>
 			rETMw/Yb9jC7IPuAQ9hs/kyJldBrRgCEQA20XXBJezA=
+			</data>
+		</dict>
+		<key>Frameworks/path_provider_foundation.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			vhcI3W3M2YK8toV4zf2D57ZSf0QauCjhaHykAAlEZc4=
+			</data>
+		</dict>
+		<key>Frameworks/path_provider_foundation.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			1CtWFWhgOdUbQrk027E1juLY8R58Q1JuF3Ej7XZPVKY=
+			</data>
+		</dict>
+		<key>Frameworks/path_provider_foundation.framework/path_provider_foundation</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			T0MJm0IteolVcqnBWc8sU8qnuQMIauVcNzJMazh0Akk=
 			</data>
 		</dict>
 	</dict>
