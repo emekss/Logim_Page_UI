@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:login_page_ui/pages/home_page.dart';
-import 'package:login_page_ui/auth/main_page.dart';
+import 'package:login_page_ui/pages/login_page.dart';
 import 'package:login_page_ui/pages/welcome_page.dart';
 
 void main() async {
@@ -18,8 +18,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const MainPage(),
+      home: const WelcomePage(),
       routes: {
+        '/loginPage': (context) => LoginPage(showRegisterPage: () {}),
         '/welcomePage': (context) => const WelcomePage(),
         '/homePage': (context) => const HomePage()
       },

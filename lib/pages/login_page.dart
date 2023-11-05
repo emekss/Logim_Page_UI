@@ -1,9 +1,8 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import 'package:login_page_ui/util/circle_wallpaper.dart';
-import 'package:login_page_ui/util/signIn_button.dart';
+import 'package:login_page_ui/util/sign_in_button.dart';
 
 class LoginPage extends StatefulWidget {
   final VoidCallback showRegisterPage;

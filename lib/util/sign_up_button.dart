@@ -1,9 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
-class SignUpButton extends StatelessWidget {
+class SignUpButton extends StatefulWidget {
   const SignUpButton({super.key});
 
+  @override
+  State<SignUpButton> createState() => _SignUpButtonState();
+}
+
+class _SignUpButtonState extends State<SignUpButton> {
   @override
   Widget build(BuildContext context) {
     return GestureDetector(

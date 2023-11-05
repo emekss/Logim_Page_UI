@@ -2,7 +2,7 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:login_page_ui/util/circle_wallpaper.dart';
-import 'package:login_page_ui/util/signUp_button.dart';
+import 'package:login_page_ui/util/sign_up_button.dart';
 
 class RegisterPage extends StatefulWidget {
   final VoidCallback showLoginPage;
@@ -19,7 +19,7 @@ class _RegisterPageState extends State<RegisterPage> {
 
 // sign in button
 
-  Future signIn() async {
+  Future signUp() async {
     await FirebaseAuth.instance.signInWithEmailAndPassword(
       email: _emailcontroller.text.trim(),
       password: _passwordcontroller.text.trim(),
@@ -119,7 +119,7 @@ class _RegisterPageState extends State<RegisterPage> {
             padding: const EdgeInsets.only(top: 400),
             child: Center(
               child: GestureDetector(
-                onTap: signIn,
+                onTap: signUp,
                 child: const SignUpButton(),
               ),
             ),
