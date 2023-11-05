@@ -1,13 +1,12 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
-
 import 'package:login_page_ui/util/circle_wallpaper.dart';
-import 'package:login_page_ui/util/signIn_button.dart';
 import 'package:login_page_ui/util/signUp_button.dart';
 
 class RegisterPage extends StatefulWidget {
-  const RegisterPage({super.key});
+  final VoidCallback showLoginPage;
+  const RegisterPage({super.key, required this.showLoginPage});
 
   @override
   State<RegisterPage> createState() => _RegisterPageState();
@@ -125,8 +124,24 @@ class _RegisterPageState extends State<RegisterPage> {
               ),
             ),
           ),
-          const Row(
-            children: [Text('Already a Member')],
+          Padding(
+            padding: const EdgeInsets.only(top: 700),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'Already a Member? ',
+                  style: GoogleFonts.poppins(fontSize: 17),
+                ),
+                GestureDetector(
+                  onTap: widget.showLoginPage,
+                  child: Text(
+                    'Sign in',
+                    style: GoogleFonts.poppins(color: Colors.red, fontSize: 17),
+                  ),
+                ),
+              ],
+            ),
           ),
           const Positioned(
             top: 780,

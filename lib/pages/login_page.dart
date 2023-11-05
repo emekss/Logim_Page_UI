@@ -6,7 +6,8 @@ import 'package:login_page_ui/util/circle_wallpaper.dart';
 import 'package:login_page_ui/util/signIn_button.dart';
 
 class LoginPage extends StatefulWidget {
-  const LoginPage({super.key});
+  final VoidCallback showRegisterPage;
+  const LoginPage({super.key, required this.showRegisterPage});
 
   @override
   State<LoginPage> createState() => _LoginPageState();
@@ -122,6 +123,25 @@ class _LoginPageState extends State<LoginPage> {
                 onTap: signIn,
                 child: const SignInButton(),
               ),
+            ),
+          ),
+          Padding(
+            padding: const EdgeInsets.only(top: 700),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  'Not a Member? ',
+                  style: GoogleFonts.poppins(fontSize: 17),
+                ),
+                GestureDetector(
+                  onTap: widget.showRegisterPage,
+                  child: Text(
+                    'Register Now',
+                    style: GoogleFonts.poppins(color: Colors.red, fontSize: 17),
+                  ),
+                ),
+              ],
             ),
           ),
           const Positioned(
