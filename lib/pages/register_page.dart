@@ -17,7 +17,7 @@ class _RegisterPageState extends State<RegisterPage> {
   final _emailcontroller = TextEditingController();
   final _passwordcontroller = TextEditingController();
 
-// sign in button
+// sign up button
 
   Future signUp() async {
     await FirebaseAuth.instance.createUserWithEmailAndPassword(
