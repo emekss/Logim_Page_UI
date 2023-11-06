@@ -13,7 +13,7 @@ class _SignInButtonState extends State<SignInButton> {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        Navigator.pushNamed(context, '/homePage');
+        // Navigator.pushNamed(context, '/homePage');
       },
       child: Container(
         height: 43,

@@ -11,22 +11,19 @@ class SignUpButton extends StatefulWidget {
 class _SignUpButtonState extends State<SignUpButton> {
   @override
   Widget build(BuildContext context) {
-    return GestureDetector(
-      onTap: () {},
-      child: Container(
-        height: 43,
-        width: 157,
-        decoration: BoxDecoration(
-          color: Colors.black,
-          borderRadius: BorderRadius.circular(30),
-        ),
-        child: Center(
-          child: Text(
-            'Sign up',
-            style: GoogleFonts.poppins(
-              fontSize: 25,
-              color: Colors.white,
-            ),
+    return Container(
+      height: 43,
+      width: 157,
+      decoration: BoxDecoration(
+        color: Colors.black,
+        borderRadius: BorderRadius.circular(30),
+      ),
+      child: Center(
+        child: Text(
+          'Sign up',
+          style: GoogleFonts.poppins(
+            fontSize: 25,
+            color: Colors.white,
           ),
         ),
       ),

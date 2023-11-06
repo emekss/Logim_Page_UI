@@ -20,7 +20,7 @@ class _RegisterPageState extends State<RegisterPage> {
 // sign in button
 
   Future signUp() async {
-    await FirebaseAuth.instance.signInWithEmailAndPassword(
+    await FirebaseAuth.instance.createUserWithEmailAndPassword(
       email: _emailcontroller.text.trim(),
       password: _passwordcontroller.text.trim(),
     );
