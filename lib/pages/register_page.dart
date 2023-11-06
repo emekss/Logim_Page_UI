@@ -46,29 +46,40 @@ class _RegisterPageState extends State<RegisterPage> {
             ),
           ),
           Padding(
-            padding: const EdgeInsets.only(top: 300),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.center,
+            padding: const EdgeInsets.only(top: 270),
+            child: Column(
               children: [
-                Text(
-                  'study ',
-                  style: GoogleFonts.poppins(
-                      color: Colors.black,
-                      fontSize: 60,
-                      fontWeight: FontWeight.bold),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    Text(
+                      'study ',
+                      style: GoogleFonts.poppins(
+                          color: Colors.black,
+                          fontSize: 60,
+                          fontWeight: FontWeight.bold),
+                    ),
+                    Text(
+                      'IN',
+                      style: GoogleFonts.poppins(
+                        color: Colors.black,
+                        fontSize: 60,
+                      ),
+                    ),
+                  ],
                 ),
                 Text(
-                  'IN',
+                  'Welcome to studyIN, Register now',
                   style: GoogleFonts.poppins(
                     color: Colors.black,
-                    fontSize: 60,
+                    fontSize: 20,
                   ),
                 ),
               ],
             ),
           ),
           const Positioned(
-            top: 380,
+            top: 390,
             right: -80,
             child: CircleObject(
               color: Colors.grey,
@@ -81,7 +92,7 @@ class _RegisterPageState extends State<RegisterPage> {
                 children: [
                   TextField(
                     decoration: InputDecoration(
-                      hintText: 'Username',
+                      hintText: 'Create Username',
                       hintStyle: GoogleFonts.poppins(),
                       border: OutlineInputBorder(
                         borderRadius: BorderRadius.circular(12),

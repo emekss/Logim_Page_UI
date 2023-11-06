@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:login_page_ui/auth/auth_page.dart';
 import 'package:login_page_ui/auth/main_page.dart';
+import 'package:login_page_ui/pages/welcome_page.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const MainPage(),
+      home: const WelcomePage(),
       routes: {
         '/authPage': (context) => const AuthPage(),
       },
