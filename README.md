@@ -1,4 +1,4 @@
-# login_page_ui
+# Study_App
 
 A new Flutter project.
 
