@@ -8,7 +8,7 @@ class JourneyButton extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // Navigator.pushNamed(context, '/registerPage');
+        Navigator.pushNamed(context, '/authPage');
       },
       child: Container(
         height: 70,
